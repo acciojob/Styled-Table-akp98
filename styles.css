@@ -1,1 +1,60 @@
 /* your code */
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+        }
+
+        caption {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2a3d67;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        td:nth-child(1) {
+            color: #2a3d67;
+            font-weight: bold;
+        }
+
+        .recovered {
+            background-color: #8BC34A;
+            color: white;
+        }
+
+        .active {
+            background-color: #FF9800;
+            color: white;
+        }
+
+        .deaths {
+            background-color: #F44336;
+            color: white;
+        }
